@@ -64,9 +64,6 @@ python anymal_robot_policy.py --device cpu
 # Run the PhysX-trained policy instead of the MuJoCo-Warp one
 python anymal_robot_policy.py --physx
 
-# Headless mode (no viewer window)
-python anymal_robot_policy.py --headless
-
 # All Newton example flags are supported (--test, --num_frames, etc.)
 python anymal_robot_policy.py --help
 ```
